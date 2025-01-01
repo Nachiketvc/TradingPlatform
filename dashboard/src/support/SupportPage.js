@@ -7,7 +7,8 @@ function SupportPage() {
     return (
         <div>
             <Navbar/>
-            <Hero/>
+            {/* <Hero/> */}
+            <CreateTicket/>
         </div>
     );
 }

@@ -29,7 +29,7 @@ const Signup = () => {
       return handleError('Name, Email, and Password are required.');
     }
     try {
-      const url = "https://tradingplatform-08sl.onrender.com/auth/signup";
+      const url = `${process.env.REACT_APP_API_URL}/auth/signup`;
       const response = await fetch(url, {
         method: "POST",
         headers: {
