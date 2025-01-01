@@ -419,7 +419,7 @@ const Holdings = ({ onSummaryUpdate }) => {
   // Fetch all holdings from the API
   const fetchHoldings = async () => {
     try {
-      const res = await axios.get("http://localhost:3002/allHoldings");
+      const res = await axios.get(`${process.env.REACT_APP_API_URL}/allHoldings`);
       setAllHoldings(res.data);
       setError("");
     } catch (error) {
