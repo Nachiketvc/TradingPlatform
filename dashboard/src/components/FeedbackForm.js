@@ -148,7 +148,7 @@ const FeedbackForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3002/api/feedback', formData);
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/api/feedback`, formData);
       if (response.status === 201) {
         toast.success('Thank you for your feedback! We will strive to improve.');
         setFormData({ name: '', email: '', message: '' });

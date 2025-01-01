@@ -464,7 +464,7 @@ const Positions = () => {
     setIsSelling(true);
   
     try {
-      const res = await axios.post("http://localhost:3002/sellStock", {
+      const res = await axios.post(`${process.env.REACT_APP_API_URL}/sellStock`, {
         name,
         qty,
         price,
