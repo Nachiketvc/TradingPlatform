@@ -1,0 +1,71 @@
+/* Navbar Base */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Fluid Container */
+.container-fluid {
+  padding: 0 5%;
+}
+
+/* Logo Styling */
+.navbar-logo {
+  width: 140px;
+}
+
+/* Navigation Menu */
+.nav-menu {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Links */
+.nav-link {
+  color: #000;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #007bff;
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: 5px;
+}
+
+.nav-link.active {
+  color: #007bff;
+  font-weight: 600;
+}
+
+/* Toggler Button */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280,0,0,0.7%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .nav-menu {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+}

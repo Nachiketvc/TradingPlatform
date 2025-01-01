@@ -1,0 +1,83 @@
+/* .class-company {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;  
+    margin-top: -18px;
+    display: block;
+  }
+  
+  .class-support {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;  
+    margin-top: -18px;
+    display: block;
+  }
+  
+  .class-account {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;  
+    margin-top: -18px;
+    display: block;
+  }
+
+  h5.company {
+    margin-bottom: 29px;
+  }
+  
+  h5.support {
+    margin-bottom: 29px;
+  }
+  
+  h5.account {
+    margin-bottom: 29px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black; 
+  }
+  
+  
+  .links {
+    display: flex; 
+    gap: 15px; 
+    justify-content: center;
+    opacity: 0.8;
+  }
+   */
+
+
+   /* For the footer-text class to reduce text size */
+.footer-text {
+  font-size: 2px; /* Smaller font size for footer content */
+  line-height: 1.6;
+  color: #666;
+}
+
+/* For h5 tags to remove text decoration */
+footer h5 {
+  text-decoration: none; /* Removes any underline or other text decoration from h5 tags */
+  font-size: 16px; /* Retain the existing size of the h5 tag */
+  font-weight: bold;
+  color: #555; /* Same color for consistency */
+}
+
+/* Optional: General footer styling to ensure consistency */
+footer {
+  font-family: Arial, sans-serif;
+}
+
+/* Ensure anchor tags in footer have consistent styles */
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Hover effect for links in footer */
+footer a:hover {
+  text-decoration: underline;
+}
+
+

@@ -1,0 +1,61 @@
+.container {
+    margin-top: 3rem;
+    padding: 1.5rem;
+}
+
+.row {
+    display: flex; /* Add flexbox to align columns side by side */
+    justify-content: space-between; /* Distribute space between columns */
+    padding: 3rem;
+}
+
+.col-left,
+.col-right {
+    flex: 1; /* Make both columns take equal space */
+    padding: 1.5rem; /* Optional: Add padding for better spacing */
+}
+
+.col-left img {
+    width: 80%; /* Make image responsive */
+    height: auto;
+}
+
+.col-right {
+    margin-top: 3rem;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    margin-top: -2rem;
+}
+
+.description {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between; /* Space between the two columns */
+    margin-top: 3rem;
+}
+
+.list-column {
+    flex: 1; /* Each list column takes equal space */
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+
+.list-item {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.press-logos {
+    width: 90%;
+    margin-top: 2rem;
+}
+

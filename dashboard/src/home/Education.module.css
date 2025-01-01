@@ -1,0 +1,51 @@
+.container {
+    margin-top: 5rem;
+    padding: 1.5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.col-left {
+    flex: 1; /* Take up half of the space */
+    padding: 1.5rem;
+    margin-top: -10rem;
+    margin-right: 6rem;
+}
+
+.image {
+    width: 100%; /* Make image responsive */
+    height: auto;
+}
+
+.col-right {
+    flex: 1; /* Take up half of the space */
+    padding: 1.5rem;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 1rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.link i {
+    margin-left: 0.5rem;
+}

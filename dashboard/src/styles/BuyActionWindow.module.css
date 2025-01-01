@@ -1,0 +1,203 @@
+
+
+
+  /* :root {
+    --radius: 12px;
+    --primary-color: #4184f3;
+    --secondary-color: #d4d4d4;
+    --hover-primary: #74a7fa;
+    --hover-secondary: #9b9b9b;
+    --font-color: #333;
+    --background-light: #f5f5f5;
+    --shadow-light: rgba(0, 0, 0, 0.1);
+    --shadow-heavy: rgba(0, 0, 0, 0.2);
+  }
+  
+  .buy-window-container {
+    width: 40%;
+    height: 63%;
+    background: var(--background-light);
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    box-sizing: border-box;
+    z-index: 100;
+    border-radius: var(--radius);
+    border: 1px solid #eee;
+    box-shadow: 0 4px 15px var(--shadow-light);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .buy-window-inputs {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .buy-window-inputs fieldset {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 45%;
+  }
+  
+  .buy-window-inputs fieldset legend {
+    font-size: 0.9rem;
+    color: var(--font-color);
+  }
+  
+  .buy-window-inputs fieldset input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  .buy-window-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .buy-window-btn {
+    padding: 12px 20px;
+    border-radius: var(--radius);
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .buy-window-btn-blue {
+    background: var(--primary-color);
+    color: #fff;
+  }
+  
+  .buy-window-btn-grey {
+    background: var(--secondary-color);
+    color: #666;
+  } */
+  
+
+ /* Container styling */
+
+ /* Container styling */
+
+
+.buy-window-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+}
+
+/* Input fieldset styling */
+.buy-window-inputs fieldset {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.buy-window-inputs legend {
+  font-size: 14px;
+  color: #333;
+  padding: 0 5px;
+}
+
+.buy-window-inputs input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Radio buttons */
+.buy-window-inputs label {
+  display: block;
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.buy-window-inputs input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* Buttons container */
+.buy-window-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buy-window-buttons span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.buy-window-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buy-window-btn-blue {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-right: 10px;
+}
+
+.buy-window-btn-blue:hover {
+  background-color: #0056b3;
+}
+
+.buy-window-btn-grey {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+}
+
+.buy-window-btn-grey:hover {
+  background-color: #5a6268;
+}
+
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.buy-window-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.buy-window-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}

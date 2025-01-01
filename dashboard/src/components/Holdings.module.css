@@ -1,0 +1,176 @@
+/* .profit {
+    color: green;
+  }
+  .loss {
+    color: red;
+  }
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+   */
+
+
+/* 
+   .holdings-container {
+    position: absolute;
+    top: 35.1vh;
+    right: 0;
+    width: 65%;
+    height: 64.9vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+   
+   .title {
+     font-size: 24px;
+     font-weight: bold;
+     margin-bottom: 10px;
+   }
+   
+   .error-message {
+     color: red;
+     font-size: 16px;
+     margin-bottom: 10px;
+   }
+   
+   .holdings-table {
+     width: 100%;
+     border-collapse: collapse;
+   }
+   
+   .holdings-table th, .holdings-table td {
+     border: 1px solid #ddd;
+     padding: 10px;
+     text-align: left;
+   }
+   
+   .holdings-table th {
+     background-color: #f0f0f0;
+   }
+   
+   .profit {
+     color: green;
+   }
+   
+   .loss {
+     color: red;
+   }
+   
+   button {
+     background-color: #4CAF50;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+   }
+   
+   button:disabled {
+     background-color: #ccc;
+     color: #666;
+     cursor: not-allowed;
+   } */
+
+
+   .holdings-container {
+    position: absolute;
+    top: 35.1vh;
+    right: 0;
+    width: 65%;
+    height: 64.9vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack table and graph vertically */
+    gap: 20px; /* Add spacing between table and graph */
+    overflow: hidden; /* Prevent unintended scrolling */
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .holdings-table {
+    width: 100%;
+    border-collapse: collapse;
+    flex: 1; /* Allow table to grow */
+    overflow-y: auto; /* Enable scrolling for table content */
+  }
+  
+  .holdings-table th,
+  .holdings-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .holdings-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .holdings-table tbody {
+    display: block; /* Make tbody scrollable */
+    max-height: 45%; /* Limit table height */
+    overflow-y: auto; /* Enable vertical scrolling for tbody */
+  }
+  
+  .holdings-table thead,
+  .holdings-table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed; /* Maintain consistent column widths */
+  }
+  
+  .profit {
+    color: green;
+  }
+  
+  .loss {
+    color: red;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+  
+  /* Graph container to ensure full visibility of the graph */
+  .graph-container {
+    width: 100%;
+    height: 45%; /* Allocate space for the graph */
+    overflow: hidden; /* Prevent unintended scrollbars */
+    flex: 1; /* Allow the graph to grow proportionally */
+  }
+  
+  /* Ensure the chart adjusts to container size */
+  .graph-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+   
+   

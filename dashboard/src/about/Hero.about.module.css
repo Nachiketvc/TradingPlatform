@@ -1,0 +1,45 @@
+.container {
+    padding: 2rem;
+    margin-top: -5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contentRow {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.column {
+    flex: 1;
+    /* Distribute the space evenly between the two columns */
+    padding: 2rem;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
