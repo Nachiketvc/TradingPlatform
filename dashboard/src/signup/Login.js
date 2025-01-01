@@ -28,7 +28,7 @@ const Login = () => {
       return handleError('Email and Password are required.');
     }
     try {
-      const url = "https://tradingplatform-08sl.onrender.com/auth/login";
+      const url = `${process.env.REACT_APP_API_URL}/auth/login`;
       const response = await fetch(url, {
         method: "POST",
         headers: {
