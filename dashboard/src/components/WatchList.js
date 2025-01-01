@@ -130,7 +130,7 @@ const BuyActionWindow = ({ uid, onClose }) => {
       return;
     }
     try {
-      const response = await axios.post("http://localhost:3002/buyStock", {
+      const response = await axios.post(`${process.env.REACT_APP_API_URL}/buyStock`, {
         name: uid,
         qty: parseFloat(stockQuantity),
         price: parseFloat(stockPrice),
