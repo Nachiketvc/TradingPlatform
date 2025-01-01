@@ -482,7 +482,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin: ['https://trading-platform-kappa.vercel.app/'], // Frontend dev server
+  origin: ['https://trading-platform-kappa.vercel.app'], // Frontend dev server
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
