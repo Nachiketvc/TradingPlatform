@@ -416,7 +416,7 @@ const Positions = () => {
 
   const fetchPositions = async () => {
     try {
-      const res = await axios.get("http://localhost:3002/allPositions");
+      const res = await axios.get(`${process.env.REACT_APP_API_URL}/allPositions`);
 
       // Validate that the response data is an array
       if (Array.isArray(res.data)) {
