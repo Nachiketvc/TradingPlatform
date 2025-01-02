@@ -1,54 +1,3 @@
-/* .class-company {
-    text-decoration: none;
-    color: black;
-    opacity: 0.8;  
-    margin-top: -18px;
-    display: block;
-  }
-  
-  .class-support {
-    text-decoration: none;
-    color: black;
-    opacity: 0.8;  
-    margin-top: -18px;
-    display: block;
-  }
-  
-  .class-account {
-    text-decoration: none;
-    color: black;
-    opacity: 0.8;  
-    margin-top: -18px;
-    display: block;
-  }
-
-  h5.company {
-    margin-bottom: 29px;
-  }
-  
-  h5.support {
-    margin-bottom: 29px;
-  }
-  
-  h5.account {
-    margin-bottom: 29px;
-  }
-
-  a {
-    text-decoration: none;
-    color: black; 
-  }
-  
-  
-  .links {
-    display: flex; 
-    gap: 15px; 
-    justify-content: center;
-    opacity: 0.8;
-  }
-   */
-
-
    /* For the footer-text class to reduce text size */
 .footer-text {
   font-size: 2px; /* Smaller font size for footer content */
@@ -79,5 +28,3 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-
-

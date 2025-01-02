@@ -164,21 +164,13 @@ const FeedbackForm = () => {
     right: '0',
     width: '64.9%',
     height: '64.9vh',
-    // backgroundColor: '#f5f5f5',
     padding: '20px',
-    // border: '1px solid #ddd',
-    // borderRadius: '10px',
-    // boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
   };
 
   const formContainerStyle = {
     width: '100%',
     maxWidth: '100%',
     padding: '20px',
-    // border: '1px solid #ddd',
-    // borderRadius: '8px',
-    // backgroundColor: '#fff',
-    // boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
     fontFamily: "'Arial', sans-serif",
   };
 
@@ -264,7 +256,3 @@ const FeedbackForm = () => {
 };
 
 export default FeedbackForm;
-
-
-
-

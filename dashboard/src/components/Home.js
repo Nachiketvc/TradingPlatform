@@ -99,16 +99,6 @@ function Home() {
 
       <div
         style={{
-          // marginLeft: '740px',
-          // marginTop: '300px',
-          // fontSize: "1.2em",
-          // color: "#555",
-          // padding: "10px",
-          // borderRadius: "10px",
-          // backgroundColor: "#f8f9fa",
-          // boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
-          // maxWidth: "600px",
-          // margin: "600px auto", // Center horizontally and keep the vertical position
             position: "absolute", // Use absolute positioning for precise placement
             left: "740px",        // Set the horizontal position
             top: "300px",         // Set the vertical position

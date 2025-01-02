@@ -6,55 +6,6 @@ import Holdings from './Holdings';
 import Orders from './Orders';
 import Positions from './Positions';
 import { Routes, Route, Outlet } from 'react-router-dom';
-
-
-// const PrivateLayout = () => {
-//     return (
-//       <div>
-//         <TopBar />
-//         <div className="container">
-//           <div className="menu-container">
-//             <Menu />
-//           </div>
-//           <div className="dynamic-container">
-//             <Routes>
-//               <Route path="holdings" element={<Holdings />} />
-//               <Route path="orders" element={<Orders />} />
-//               <Route path="positions" element={<Positions />} />
-//               {/* Add more routes here */}
-//             </Routes>
-//             <Outlet />
-//           </div>
-//         </div>
-//         <Watchlist />
-//       </div>
-//     );
-//   };
-
-
-// export default PrivateLayout;
-
-
-// const PrivateLayout = () => {
-//   return (
-//     <div>
-//       <TopBar />
-//       <div className="container">
-//         <div className="menu-container">
-//           <Menu />
-//         </div>
-//         <div className="dynamic-container">
-//           <Outlet />
-//         </div>
-//       </div>
-//       <Watchlist />
-//     </div>
-//   );
-// };
-
-// export default PrivateLayout;
-
-
 import BuyActionWindow from './BuyActionWindow';
 import { useState } from 'react';
 

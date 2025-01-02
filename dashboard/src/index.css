@@ -43,44 +43,6 @@
   background-color: black;
 }
 
-
-/* Menu Section */
-/* .menu-container {
-  flex: 0 0 65%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 20px;
-}
-
-.menu-item {
-  text-decoration: none;
-  color: #007bff;
-  font-size: 14px;
-  padding: 5px 10px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.menu-item:hover {
-  background-color: #007bff;
-  color: #fff;
-}
-
-.menu-item.active {
-  background-color: #007bff;
-  color: #fff;
-}
-
-.logout-button {
-  background-color: transparent;
-  color: #d9534f;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-  transition: color 0.3s ease;
-} */
-
 .logout-button:hover {
   color: #c9302c;
 }

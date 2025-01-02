@@ -1,25 +1,3 @@
-// import '../index.css';
-// import Menu from './Menu';
-
-// function TopBar() {
-//   return (
-//     <div>
-//       <nav className="navbar">
-//         <p>SENSEX</p>
-//         <p>100.2</p>
-//         <p>NIFTY FIFYTY</p>
-//         <p>100.2</p>
-//       </nav>
-//       <div className="vertical-divider"></div>  
-//       <Menu/>
-//     </div>
-
-//   );
-// }
-
-// export default TopBar;
-
-
 import '../index.css';
 import Menu from './Menu';
 
@@ -40,7 +18,3 @@ function TopBar() {
 }
 
 export default TopBar;
-
-
-
-
