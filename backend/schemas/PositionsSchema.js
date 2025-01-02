@@ -1,16 +1,3 @@
-// const {Schema} = require('mongoose');
-
-// const PositionsSchema = new Schema({
-//     product: String,
-//     name: String,
-//     qty: Number,
-//     avg: Number,
-//     price: Number,
-//     net: String,
-//     day: String,
-//     isLoss: Boolean,
-// });
-
 const mongoose = require('mongoose'); // Import mongoose
 
 const PositionsSchema = new mongoose.Schema({

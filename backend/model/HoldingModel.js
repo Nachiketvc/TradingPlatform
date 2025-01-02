@@ -1,11 +1,3 @@
-// const { model } = require('mongoose');
-// const HoldingsSchema = require('../schemas/HoldingSchemas'); // Import the schema
-
-// const HoldingsModel = model("holding", HoldingsSchema); // Register the model with the schema
-
-// module.exports = HoldingsModel; // Export the model directly
-
-
 const mongoose = require("mongoose");
 
 const HoldingSchema = new mongoose.Schema({

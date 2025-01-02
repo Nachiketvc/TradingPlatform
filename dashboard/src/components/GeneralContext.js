@@ -1,6 +1,5 @@
 import React, { useState, createContext } from "react";
 import BuyActionWindow from "./BuyActionWindow";
-import SellActionWindow from "./SellActionWindow";
 
 const GeneralContext = createContext({
   openBuyWindow: (uid) => {},
@@ -47,7 +46,7 @@ export const GeneralContextProvider = ({ children }) => {
     >
       {children}
       {isBuyWindowOpen && <BuyActionWindow uid={selectedStockUID} />}
-      {isSellWindowOpen && <SellActionWindow uid={selectedStockUID} />}
+      {/* {isSellWindowOpen && <SellActionWindow uid={selectedStockUID} />} */}
     </GeneralContext.Provider>
   );
 };

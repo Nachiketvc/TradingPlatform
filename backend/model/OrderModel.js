@@ -1,11 +1,3 @@
-// const {model} = require('mongoose');
-
-// const OrdersSchema = require('../schemas/OrdersSchema');
-
-// const OrdersModel = model("order", OrdersSchema);
-
-// module.exports = OrdersModel;
-
 const mongoose = require("mongoose");
 
 const OrderSchema = new mongoose.Schema({
