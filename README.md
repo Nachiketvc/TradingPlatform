@@ -80,6 +80,13 @@ Below is a breakdown of the core technologies used in this project:
 
 ## Screenshots
 
+<p>
+  <img src=""C:\Users\nachi\OneDrive\Desktop\new pics\HomePage.jpg"" alt="Image 1" width="150" />
+  <img src="URL_of_image_2" alt="Image 2" width="150" />
+  <img src="URL_of_image_3" alt="Image 3" width="150" />
+  <img src="URL_of_image_4" alt="Image 4" width="150" />
+  <img src="URL_of_image_5" alt="Image 5" width="150" />
+</p>
 
 
 ---
