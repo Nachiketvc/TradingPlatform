@@ -22,13 +22,15 @@ This repository includes a clone of the popular stock trading platform, built us
 ## Technologies
 Below is a breakdown of the core technologies used in this project:
 
-| Category | Technology |
-|----------|------------|
-| Web    | React.js   |
-           Node.js 
-           Express.js
-           MongoDB
----
+## Technologies
+Below is a breakdown of the core technologies used in this project:
+
+| Category     | Technology     |
+|--------------|----------------|
+| Web          | HTML, CSS, Bootstrap, React.js, Material UI |
+| Backend      | Node.js, Express.js |
+| Database     | MongoDB        |
+
 
 ## Packages & Libraries Used
 List your packages and libraries here.
