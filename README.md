@@ -91,7 +91,6 @@ Below is a breakdown of the core technologies used in this project:
 ---
 
 ## Acknowledgments
-Acknowledge any resources or inspirations.
-
 This was coursework from Apna College.
+
 ---
