@@ -3,8 +3,7 @@ This repository includes a clone of the popular stock trading platform, built us
 
 ## Table of Contents
 1. [Overview](#overview)
-2. [Technologies](#technologies)
-3. [Packages & Libraries Used](#packages--libraries-used)
+2. [Technologies Packages & Libraries Used](#technologies)
 4. [Getting Started](#getting-started)
 5. [Setup](#setup)
 6. [Features](#features)
