@@ -59,7 +59,7 @@ function Menu() {
         to="/positions"
         className={isselectedmenu === 3 ? "menu-item active" : "menu-item"}
       >
-        Positions
+        Intraday
       </Link>
       <Link
         to="/feedback"

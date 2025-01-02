@@ -65,7 +65,7 @@ const BuyActionWindow = ({ uid, onClose }) => {
                 checked={addTo === "Positions"}
                 onChange={(e) => setAddTo(e.target.value)}
               />
-              Positions
+              Intraday
             </label>
             <label>
               <input
