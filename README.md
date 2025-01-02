@@ -80,7 +80,7 @@ Below is a breakdown of the core technologies used in this project:
 
 ## Screenshots
 
-<img src="Pricing.jpg" width="100" /> <img src="Pricing.jpg" width="100" /> <img src="Pricing.jpg" width="100" /> <img src="Pricing.jpg" width="100" /> <img src="Pricing.jpg" width="100" />
+<img src="Pricing.jpg" width="200" /> <img src="Pricing.jpg" width="200" /> <img src="Pricing.jpg" width="200" /> <img src="Pricing.jpg" width="200" /> <img src="Pricing.jpg" width="200" />
 
 
 ---
