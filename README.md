@@ -39,24 +39,30 @@ Here's a refined version of the list for your GitHub project:
 
 ### 📦 Libraries & Packages Used
 
-This project utilizes the following key libraries and packages:
-
-Package / Library	Purpose
-Axios	HTTP client for API requests
-Charts.js	Data visualization
-Material UI	UI components
-React Router Dom	Client-side routing
-Bootstrap 5.3	Responsive design
-CORS	Cross-Origin Resource Sharing (CORS)
-Bcrypt	Password hashing
-Jwt	JSON Web Token (JWT)
-Mongoose	MongoDB object modeling
-Express.js	Backend framework
-Body-Parser	Middleware for parsing request bodies
+Here's a revised version with the order changed:
 
 ---
 
-This version provides a clearer structure and explanation. Let me know if you'd like any further tweaks!
+### 📦 Libraries & Packages Used
+
+This project utilizes the following key libraries and packages:
+
+| Package / Library    | Purpose |
+| -------------------- | ------- |
+| **Axios**            | HTTP client for API requests |
+| **Charts.js**        | Data visualization |
+| **Material UI**      | UI components |
+| **React Router Dom** | Client-side routing |
+| **Bootstrap 5.3**    | Responsive design |
+| **CORS**             | Cross-Origin Resource Sharing (CORS) |
+| **Bcrypt**           | Password hashing |
+| **Jwt**              | JSON Web Token (JWT) |
+| **Mongoose**         | MongoDB object modeling |
+| **Express.js**       | Backend framework |
+| **Body-Parser**      | Middleware for parsing request bodies |
+
+---
+
 
 ## Getting Started
 Write instructions on how to get started with your project.
