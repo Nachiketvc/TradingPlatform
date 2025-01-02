@@ -31,14 +31,12 @@ Below is a breakdown of the core technologies used in this project:
 | Database     | MongoDB        |
 
 
-## Packages & Libraries Used
-Here's a refined version of the list for your GitHub project:
 
 ---
 
 ### 📦 Libraries & Packages Used
 
-Here's a revised version with the order changed:
+
 
 ---
 
