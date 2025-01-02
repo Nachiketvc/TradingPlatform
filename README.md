@@ -42,9 +42,6 @@ Here's a revised version with the order changed:
 
 ---
 
-### 📦 Libraries & Packages Used
-
-This project utilizes the following key libraries and packages:
 
 | Package / Library    | Purpose |
 | -------------------- | ------- |
