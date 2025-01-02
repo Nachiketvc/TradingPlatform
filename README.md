@@ -1,4 +1,4 @@
-# Welcome to Zerodha Clone!  
+# Welcome to Trading Plarform Website!  
 This repository includes a clone of the popular stock trading platform, built using the MERN stack.
 
 ## Table of Contents
