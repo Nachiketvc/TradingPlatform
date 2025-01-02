@@ -60,13 +60,21 @@ Below is a breakdown of the core technologies used in this project:
 Login and Signup: Secured with JWT Token for encryption, user authentication, and authorization.
 
 Stock Trading: Users can buy and sell stocks, with updates reflected in real-time under the Holdings and Intraday sections.
+
 Order History: View buy/sell history in the Orders section.
+
 Trading Options: Separate options for Holdings (long-term investments) and Intraday trading.
+
 Real-Time News Updates: Integrated an API for real-time news updates related to the stock market.
+
 Feedback Feature: Users can share their inputs through a dedicated feedback feature.
+
 Frontend Design: The frontend design is inspired by Zerodha.
+
 Database: All the data is stored in MongoDB.
+
 Deployment: Backend hosted on Render and Frontend on Vercel.
+
 Future Enhancements: Introducing an Admin Section to manage and monitor user activities seamlessly.
 
 ---
