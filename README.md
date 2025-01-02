@@ -55,7 +55,6 @@ Below is a breakdown of the core technologies used in this project:
 ---
 
 ## Features
-𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐞𝐝: 
 
 **Login and Signup:** Secured with JWT Token for encryption, user authentication, and authorization.
 
