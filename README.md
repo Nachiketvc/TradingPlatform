@@ -80,8 +80,7 @@ Below is a breakdown of the core technologies used in this project:
 
 ## Screenshots
 
-
-
+![HomePage](HomePage.jpg) ![Pricing](Pricing.jpg)
 
 ---
 
