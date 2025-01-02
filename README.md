@@ -22,8 +22,7 @@ This repository includes a clone of the popular stock trading platform, built us
 ## Technologies
 Below is a breakdown of the core technologies used in this project:
 
-## Technologies
-Below is a breakdown of the core technologies used in this project:
+
 
 | Category     | Technology     |
 |--------------|----------------|
