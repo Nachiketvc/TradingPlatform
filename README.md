@@ -4,12 +4,11 @@ This repository includes a clone of the popular stock trading platform, built us
 ## Table of Contents
 1. [Overview](#overview)
 2. [Technologies Packages & Libraries Used](#technologies)
-4. [Getting Started](#getting-started)
-5. [Setup](#setup)
-6. [Features](#features)
-7. [Demo & Screenshots](#demo--screenshots)
-8. [Acknowledgments](#acknowledgments)
-9. [License](#license)
+3. [Getting Started](#getting-started)
+4. [Features](#features)
+5. [Screenshots](#demo--screenshots)
+6. [Acknowledgments](#acknowledgments)
+
 
 ---
 
