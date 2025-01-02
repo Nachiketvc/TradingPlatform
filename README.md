@@ -24,8 +24,10 @@ Below is a breakdown of the core technologies used in this project:
 
 | Category | Technology |
 |----------|------------|
-| Web      | React.js   |
-
+| Web    | React.js   |
+           Node.js 
+           Express.js
+           MongoDB
 ---
 
 ## Packages & Libraries Used
