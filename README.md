@@ -79,7 +79,7 @@ Below is a breakdown of the core technologies used in this project:
 ---
 
 ## Screenshots
-![HomePage]("C:\Users\nachi\OneDrive\Desktop\new pics\HomePage.jpg")
+
 
 
 ---
