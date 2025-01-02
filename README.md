@@ -88,11 +88,10 @@ Below is a breakdown of the core technologies used in this project:
 <img src="TradingDashboard.jpg" width="200" /> <img src="Holdings.jpg" width="200" /> <img src="IntraDay.jpg" width="200" /> <img src="Orders.jpg" width="200" /> <img src="FeedBack.jpg" width="200" /> <img src="News.jpg" width="200" />
 
  
-
-
 ---
 
 ## Acknowledgments
 Acknowledge any resources or inspirations.
 
+This was coursework from Apna College.
 ---
