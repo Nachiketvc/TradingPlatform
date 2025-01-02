@@ -82,7 +82,7 @@ Below is a breakdown of the core technologies used in this project:
 
 <img src="HomePage.jpg" width="200" /> <img src="Pricing.jpg" width="200" /> <img src="SignUp.jpg" width="200" /> <img src="Footer.jpg" width="200" /> <img src="News.jpg" width="200" />
 
-<img src="TradingDashboard.jpg" width="200" /> <img src="Holdings.jpg" width="200" /> <img src="IntrDay.jpg" width="200" /> <img src="Orders".jpg" width="200" /> <img src="FeedBack.jpg" width="200" />
+<img src="TradingDashboard.jpg" width="200" /> <img src="Holdings.jpg" width="200" /> <img src="IntraDay.jpg" width="200" /> <img src="Orders".jpg" width="200" /> <img src="FeedBack.jpg" width="200" />
 
 
 ---
