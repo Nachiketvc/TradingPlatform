@@ -56,43 +56,6 @@ Below is a breakdown of the core technologies used in this project:
 
 ---
 
-
-## Getting Started
-Write instructions on how to get started with your project.
-
----
-
-## Setup
-
-
-# Navigate to the backend directory and install the necessary dependencies
-cd backend
-npm install
-
-# Move to the dashboard directory and install the frontend dependencies
-cd ../dashboard
-npm install
-
-# Create a .env file inside the backend folder with the following content:
-# In backend/.env file
-PORT=3000
-MONGO_URL="Your Mongo Database URL"
-SECRET="Your Unique JWT Secret"
-
-# Start the backend server
-cd backend
-npm start
-
-# Start the frontend server
-cd ../dashboard
-npm start
-
-
-
-
-
-
-
 ## Features
 Highlight the main features of your project.
 
