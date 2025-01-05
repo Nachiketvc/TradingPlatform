@@ -1,8 +1,7 @@
 # Welcome to Trading Plarform Website!  
-This repository includes a clone of the popular stock trading platform, built using the MERN stack.
 
 ## Table of Contents
-1. [Overview](#overview)
+1. [Problem Statement](#Problem Statement)
 2. [Technologies Packages & Libraries Used](#technologies)
 3. [Features](#features)
 4. [Screenshots](#demo--screenshots)
@@ -11,10 +10,13 @@ This repository includes a clone of the popular stock trading platform, built us
 
 ---
 
-## Overview
-**Description:** A clone of the popular stock trading platform, Zerodha, built using the MERN stack.
+## Problem Statement
+The goal of this project is to predict, based on historical data, how many days it will take for a patient to be readmitted to the hospital after receiving treatment. The predictions are made for timeframes of 7 Days, 30 Days, 60 Days, and 90 Days.
 
-👉 𝐂𝐡𝐞𝐜𝐤 𝐢𝐭 𝐨𝐮𝐭 𝐡𝐞𝐫𝐞: https://lnkd.in/duqsBrqK
+We address two specific scenarios:
+
+1. Patient Readmission Prediction for Specific Diseases: Predicting readmission intervals for patients with particular conditions.
+2. Patient Readmission Prediction for All Diseases: A generalized model for predicting readmission intervals across all conditions.
 
 
 ---
