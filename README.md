@@ -6,7 +6,7 @@
 2. [Technologies](#technologies)
 3. [Packages & Libraries Used](#packages--libraries-used)
 4. [Features](#features)
-5. [Demo & Screenshots](#demo--screenshots)
+5. [Screenshots](#Screenshots)
 6. [Acknowledgments](#acknowledgments)
 
 
@@ -89,7 +89,7 @@ Below is a breakdown of the core technologies used in this project:
 ---
 
 ## Acknowledgments
-Acknowledge any resources or inspirations.
+This was the coursework from Apna College.
 
 ---
 
