@@ -15,8 +15,8 @@ The goal of this project is to predict, based on historical data, how many days 
 
 We address two specific scenarios:
 
-1. Patient Readmission Prediction for Specific Diseases: Predicting readmission intervals for patients with particular conditions.
-2. Patient Readmission Prediction for All Diseases: A generalized model for predicting readmission intervals across all conditions.
+1. **Patient Readmission Prediction for Specific Diseases:** Predicting readmission intervals for patients with particular conditions.
+2. **Patient Readmission Prediction for All Diseases:** A generalized model for predicting readmission intervals across all conditions.
 
 
 ---
@@ -28,9 +28,9 @@ Below is a breakdown of the core technologies used in this project:
 
 | Category     | Technology     |
 |--------------|----------------|
-| Web          | HTML, CSS, Bootstrap, React.js, Material UI |
-| Backend      | Node.js, Express.js |
-| Database     | MongoDB        |
+| Programming Language         | Python |
+| Techniques     | Machine Learning, Deep Learning, and Natural Language Processing |
+| Algorithms    | Hybridization, Stacking, and Mixture of Experts        |
 
 
 
