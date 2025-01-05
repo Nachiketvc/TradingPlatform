@@ -31,7 +31,7 @@ Below is a breakdown of the core technologies used in this project:
 
 ---
 
-## Packages & Libraries Used
+## 📦 Packages & Libraries Used
 
 
 | Package / Library    | Purpose |
