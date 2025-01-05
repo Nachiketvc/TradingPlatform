@@ -3,8 +3,8 @@
 ## Table of Contents
 1. [Problem Statement](#Problem Statement)
 2. [Technologies Packages & Libraries Used](#technologies)
-3. [Features](#features)
-4. [Screenshots](#demo--screenshots)
+3. [Dataset](#Dataset)
+4. [Methodology](#Methodology)
 5. [Acknowledgments](#acknowledgments)
 
 
@@ -36,60 +36,47 @@ Below is a breakdown of the core technologies used in this project:
 
 ---
 
-### 📦 Libraries & Packages Used
+## Dataset
 
-
-
----
-
-
-| Package / Library    | Purpose |
-| -------------------- | ------- |
-| **Axios**            | HTTP client for API requests |
-| **Charts.js**        | Data visualization |
-| **Material UI**      | UI components |
-| **React Router Dom** | Client-side routing |
-| **Bootstrap 5.3**    | Responsive design |
-| **CORS**             | Cross-Origin Resource Sharing (CORS) |
-| **Bcrypt**           | Password hashing |
-| **Jwt**              | JSON Web Token (JWT) |
-| **Mongoose**         | MongoDB object modeling |
-| **Express.js**       | Backend framework |
-| **Body-Parser**      | Middleware for parsing request bodies |
+The dataset used for this project includes information on diabetic patients and is sourced from Kaggle. It contains detailed records of patient demographics, treatments, and hospital visits, making it suitable for both disease-specific and generalized predictions.
 
 ---
 
-## Features
+## Methodology
 
-**Login and Signup:** Secured with JWT Token for encryption, user authentication, and authorization.
+**1. Data Collection and Preprocessing:**
 
-**Stock Trading:** Users can buy and sell stocks, with updates reflected in real-time under the Holdings and Intraday sections.
+- Gathered patient treatment data, including demographic, clinical, and procedural information.
+- Performed data cleaning and preprocessing to handle missing values, outliers, and noise.
+- Engineered relevant features to capture important patterns in patient data.
+  
+**2. Exploratory Data Analysis (EDA):**
 
-**Order History:** View buy/sell history in the Orders section.
+- Visualized readmission trends and key influencing factors.
+- Analyzed readmission rates for specific diseases and generalized trends.
 
-**Trading Options:** Separate options for Holdings (long-term investments) and Intraday trading.
+**3. Model Development:**
 
-**Real-Time News Updates:** Integrated an API for real-time news updates related to the stock market.
+- Implemented machine learning techniques such as Hybridization, Stacking, and Mixture of Experts to train the model.
+- Developed disease-specific and generalized models to handle the two problem statements.
+- Explored deep learning architectures for complex patterns in the data, particularly in cases where sequential or unstructured data was involved.
+  
+**4. Model Evaluation:**
 
-**Feedback Feature:** Users can share their inputs through a dedicated feedback feature.
+- Evaluated the performance of the models using metrics like accuracy, precision, recall, F1-score, and mean absolute error (MAE).
+- Compared results across the two problem statements to understand the differences in model behavior.
 
-**Frontend Design:** The frontend design is inspired by Zerodha.
+**5.Insights:**
 
-**Database:** All the data is stored in MongoDB.
+- For specific diseases, the models captured patterns more precisely due to narrower focus and homogeneity in data.
+- For all diseases, the model generalized well but required more diverse data and advanced techniques to handle variability.
 
-**Deployment:** Backend hosted on Render and Frontend on Vercel.
+**6. Future Work:**
 
-**Future Enhancements:** Introducing an Admin Section to manage and monitor user activities seamlessly.
+- Fine-tuning models with larger and more diverse datasets.
+- Exploring transfer learning for disease-specific predictions.
+- Incorporating real-time data for continuous model updates.
 
----
-
-## Screenshots
-
-<img src="HomePage.jpg" width="200" /> <img src="Pricing.jpg" width="200" /> <img src="SignUp.jpg" width="200" /> <img src="Footer.jpg" width="200" />
-
-<img src="TradingDashboard.jpg" width="200" /> <img src="Holdings.jpg" width="200" /> <img src="IntraDay.jpg" width="200" /> <img src="Orders.jpg" width="200" /> <img src="FeedBack.jpg" width="200" /> <img src="News.jpg" width="200" />
-
- 
 ---
 
 ## Acknowledgments
