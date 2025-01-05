@@ -1,8 +1,8 @@
 # Welcome to Trading Plarform Website!  
 
 ## Table of Contents
-1. [Problem Statement](#Problem Statement)
-2. [Technologies Packages & Libraries Used](#technologies)
+1. [Problem Statement](#Problem-Statement)
+2. [Technologies](#technologies)
 3. [Dataset](#Dataset)
 4. [Methodology](#Methodology)
 5. [Acknowledgments](#acknowledgments)
