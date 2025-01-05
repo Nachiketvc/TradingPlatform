@@ -1,13 +1,12 @@
 # Welcome to Trading Plarform Website!  
 
 ## Table of Contents
-1. [Problem Statement](#Problem-Statement)
-2. [Technologies](#technologies)
-3. [Dataset](#Dataset)
-4. [Methodology](#Methodology)
-5. [Project Status](#Project-Status)
-6. [Results (So Far)](#Result)
-
+1. [Problem Statement](#problem-statement)  
+2. [Technologies](#technologies)  
+3. [Dataset](#dataset)  
+4. [Methodology](#methodology)  
+5. [Project Status](#project-status)  
+6. [Results (So Far)](#results-so-far)  
 
 ---
 
