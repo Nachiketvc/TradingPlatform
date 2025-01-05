@@ -87,8 +87,6 @@ Acknowledge any resources or inspirations.
 
 ---
 
-## License
-State the license under which your project is available.
 
 
 
