@@ -13,7 +13,7 @@
 ---
 
 ## Overview
-**Description:** A clone of the popular stock trading platform, Zerodha, built using the MERN stack.
+**Description:** A clone of a popular stock trading platform, built using the MERN stack.
 
 👉 𝐂𝐡𝐞𝐜𝐤 𝐢𝐭 𝐨𝐮𝐭 𝐡𝐞𝐫𝐞: https://lnkd.in/duqsBrqK
 
