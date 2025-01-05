@@ -79,7 +79,7 @@ Below is a breakdown of the core technologies used in this project:
 
 ## Screenshots
 
-<img src="HomePage.jpg" width="150" /> <img src="Pricing.jpg" width="150" /> <img src="Signup.jpg" width="150" /> <img src="TradingDashboard.jpg" width="150" /> <img src="News.jpg" width="150" />
+<img src="HomePage.jpg" width="200" /> <img src="Pricing.jpg" width="200" /> <img src="Signup.jpg" width="200" /> <img src="TradingDashboard.jpg" width="200" /> <img src="Footer.jpg" width="200" />
 
 
 
