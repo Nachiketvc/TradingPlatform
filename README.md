@@ -5,7 +5,8 @@
 2. [Technologies](#technologies)
 3. [Dataset](#Dataset)
 4. [Methodology](#Methodology)
-5. [Acknowledgments](#acknowledgments)
+5. [Project Status](#Project-Status)
+6. [Results (So Far)](#Result)
 
 
 ---
@@ -79,7 +80,17 @@ The dataset used for this project includes information on diabetic patients and 
 
 ---
 
-## Acknowledgments
-This was coursework from Apna College.
+## Project Status
+The project is currently in progress. Ongoing tasks include:
+
+- Refining models for disease-specific and generalized predictions.
+- Conducting comparative analysis to assess the model's behavior for both problem statements.
+- Enhancing feature engineering and exploring ensemble methods for improved accuracy.
 
 ---
+
+## Result (So Far)
+
+- Early-stage results show promising accuracy in disease-specific predictions.
+- Generalized models show moderate performance but require additional optimization.
+- Initial findings suggest significant differences in the predictive power of models across specific and generalized datasets.
