@@ -88,7 +88,7 @@ The project is currently in progress. Ongoing tasks include:
 
 ---
 
-## Result (So Far)
+## Results (So Far)
 
 - Early-stage results show promising accuracy in disease-specific predictions.
 - Generalized models show moderate performance but require additional optimization.
