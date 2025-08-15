@@ -1,34 +1,30 @@
-version: '3.8'
+version: "3.8"
+
 services:
   backend:
-    build: ./backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
     container_name: backend
-    restart: always
     ports:
-      - "3002:5000" # Host:Container
+      - "3002:3002"
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    command: npm start
     environment:
-      - PORT=5000
-      - MONGO_URI=mongodb://mongo:27017/tradingdb
-    depends_on:
-      - mongo
+      - PORT=3002
 
   frontend:
-    build: ./dashboard
+    build:
+      context: ./dashboard
+      dockerfile: Dockerfile
     container_name: frontend
-    restart: always
     ports:
-      - "3000:80" # Host:Container
-    depends_on:
-      - backend
-
-  mongo:
-    image: mongo:6
-    container_name: mongo
-    restart: always
-    ports:
-      - "27017:27017"
+      - "3000:3000"
     volumes:
-      - mongo_data:/data/db
-
-volumes:
-  mongo_data:
+      - ./dashboard:/app
+      - /app/node_modules
+    command: npm start
+    environment:
+      - PORT=3000
